@@ -1,0 +1,19 @@
+#tkornut@us.ibm.com account
+Host github.com-tkornut
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_tkornut_ibm
+
+#tkornuta@gmail account
+Host github.com-tkornuta
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_tkornuta_gmail
+
+# Newton
+Host newton
+	HostName newton.almaden.ibm.com
+	User tkornuta
+	IdentityFile ~/.ssh/id_rsa_tkornut_ibm
+	
+
