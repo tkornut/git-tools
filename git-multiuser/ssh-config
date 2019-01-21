@@ -4,6 +4,12 @@ Host github.com-tkornut
 	User git
 	IdentityFile ~/.ssh/id_rsa_tkornut_ibm
 
+#tkornut@us.ibm.com account
+Host github.ibm.com-tkornut
+	HostName github.ibm.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_tkornut_ibm
+
 #tkornuta@gmail account
 Host github.com-tkornuta
 	HostName github.com
