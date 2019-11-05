@@ -22,4 +22,8 @@ Host github.com-priv
 	User git
 	IdentityFile ~/.ssh/id_rsa_priv
 
-In a given repository: rrr/
+In a given repository: rrr/.git/config
+
+[user]
+	name = aaa
+	email = eee:
