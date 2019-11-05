@@ -1,0 +1,25 @@
+
+https://gist.github.com/jexchan/2351996
+
+In file: ~/.ssh/config:
+
+
+# aaa account
+Host github.com-aaa
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_aaa
+
+# bbb account
+Host github.com-bbb
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_bbb
+
+# priv account
+Host github.com-priv
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_priv
+
+In a given repository: rrr/
